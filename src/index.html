@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Template Landing Bootstrap - Sensorial</title>
+
+    <!-- build:css -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/magnific-popup/magnific-popup.css">
+    <!-- endbuild -->
+    
+    <!-- build:css2 -->
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+
+</head>
+<body>
+    
+    <div id="barra-contato">
+       
+        <div class="contato contato-phone">
+           
+           <a href="#" onclick="window.open(this.href,'newwindow', 'width=450, height=344'); return false;">
+                <div class="container-icon">
+                    <i class="icon-phone"></i>
+               </div>
+                <p class="d-none d-sm-flex"><span>Ligue-me</span></p>
+            </a>
+            
+        </div>
+          
+        <div class="contato contato-phone">
+           
+           <a href="#tel://2100000000" onclick="">
+                <div class="container-icon">
+                    <i class="icon-phone"></i>
+               </div>
+                <p class="d-none d-sm-block">Atendimento <br>
+                    <span>via Telefone</span></p>
+            </a>
+            
+        </div>
+        
+        <div class="contato contato-whatsapp">
+           
+           <a href="https://api.whatsapp.com/send?phone=552100000000" onclick="">
+                <div class="container-icon">
+                    <i class="icon-whatsapp"></i>
+               </div>
+                <p class="d-none d-sm-block">Orçamento <br>
+                    <span>via WhatsApp</span></p>
+            </a>
+            
+        </div>
+        
+        <div class="contato contato-email">
+           
+           <a href="#formulario" onclick="">
+                <div class="container-icon">
+                    <i class="icon-envelope-o"></i>
+               </div>
+                <p class="d-none d-sm-block">Orçamento <br>
+                    <span>por E-mail</span></p>
+            </a>
+            
+        </div>
+        
+        <div class="contato contato-chat">
+           
+           <a href="#" onclick="window.open(this.href,'newwindow', 'width=510, height=580'); return false;">
+                <div class="container-icon">
+                    <i class="icon-commenting-o"></i>
+               </div>
+                <p class="d-none d-sm-block">Chat <br>
+                    <span>Online</span></p>
+            </a>
+            
+        </div>
+          
+        <div class="contato contato-waze">
+           
+           <a href="#" onclick="">
+                <div class="container-icon">
+                    <i class="icon-car"></i>
+               </div>
+                <p class="d-none d-sm-block"><span>Dirija</span> <br>
+                    até o local</p>
+            </a>
+            
+        </div>
+        
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+       
+       <div class="container">
+            
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid logo-brand sps sps--abv" data-sps-offset="500"
+                    src="https://placehold.it/300x116/f99d1f/fff?text=Logotipo" alt="Nome do Projeto - Logo">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Empreendimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Imagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Vídeo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario">QUERO MAIS INFORMAÇÕES</a>
+                    </li>
+                </ul>
+
+            </div>
+        
+       
+       </div>
+       
+    </nav>
+    
+    <header>
+        <div class="container-fluid m-0 p-0">
+            <div class="col-md-12 m-0 p-0">
+                <img class="img-fluid" src="http://placehold.it/2000x925/f99d1f/fff?text=Fachada" alt="Nome do Projeto - Fachada">
+            </div>
+        </div>
+    </header>
+    
+    <section id="formulario" class="section">
+        <div class="container">
+            <div class="row">
+               
+               <div class="col-md-8">
+                   
+                   
+                   
+               </div>
+               
+                <div class="col-md-4 ml-auto">
+                   
+                   <p class="h3 text-center">Solicite mais informações</p>
+                   <p class="text-center">Em breve entraremos em contato.</p>
+                    
+                    <form name="form" class="form-1" method="post" action="envia.php">
+
+                        <input class="form-control" type="text" name="nome-1" placeholder="Digite seu nome"
+                            title="O campo Nome deve ser preenchido" required>
+                        
+                        <input class="form-control" type="text" name="telefone-1" placeholder="Digite seu telefone"
+                            title="O campo Telefone deve ser preenchido" required>
+                        
+                        <input class="form-control" type="email" name="email-1" placeholder="Digite seu email"
+                            title="Por favor, preencha com um email válido." required>
+                        
+                        <textarea class="form-control" type="text" name="mensagem-1" placeholder="Digite sua mensagem"
+                            title="O campo Mensagem deve ser preenchido" data-rule-required="true" rows="4"></textarea>
+                        
+                        <input type="text" name="honeypot-1" class="honeypot d-none" placeholder="Honeypot">
+
+                        <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase">Quero Mais Informações</button>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="row">
+              
+              <div class="col-md-12 text-center">
+                  
+                <a href="#" class="btn btn-lg btn-danger text-uppercase" role="button">Quero Mais Informações</a>
+                  
+              </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section">
+       
+        <div class="container">
+           
+            <div class="row">
+              
+               <div class="col-md-12">
+                   <p class="h2 section-title">Imagens</p>
+               </div>
+               
+           </div>
+           
+            <div class="row">
+              
+                <div class="col-md-12 glry-div d-flex flex-wrap align-items-center justify-content-center">
+                    
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+                    <a href="http://via.placeholder.com/1200x600/000/fff">
+                        <img src="http://via.placeholder.com/500x334" alt="" class="img-fluid img-glry">
+                    </a>
+
+                </div>
+               
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="row">
+              
+              <div class="col-md-12 text-center">
+                  
+                <a href="#" class="btn btn-lg btn-danger text-uppercase" role="button">Quero Mais Informações</a>
+                  
+              </div>
+               
+            </div>
+        </div>
+    </section>
+    
+    <section id="video" class="section">
+        <div class="container">
+           
+           <div class="row">   
+               
+                <div class="col-md-10 mx-auto">
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                      
+                        <div class="youtube" data-embed="cNq9UrYf62w"> 
+ 
+                            <div class="play-button"></div> 
+
+                        </div>
+                      
+
+                    </div>
+
+                </div>
+               
+           </div>
+           
+        </div>
+    </section>
+
+    <section id="construtora" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-uppercase text-center">Padrão de Qualidade:</p>
+                    <img class="d-block mx-auto" src="img/calcada-logo.png" alt="Cliente - Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   
+                    <img class="img-fluid d-block mx-auto" src="http://www.voguesquaremall.com.br/img/vogue-square-logo-xs.png" alt="Empreedimento - Logo">
+                    
+                    <p class="text-center my-3">Handmade by <a href="http://www.sensorialbr.com" target="_blank">Sensorial</a></p>
+                    
+                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit ipsum sed mi sagittis, vel mollis ipsum elementum. Mauris ac imperdiet sapien. Ut at massa ac odio faucibus fringilla ac sit amet metus. Fusce quis dui metus. Maecenas dui orci, euismod tincidunt vulputate ut, vulputate sed odio. Aliquam sodales, odio ac vehicula luctus, lacus elit lacinia risus, ac vulputate nisl libero eget purus. Aliquam pellentesque egestas consectetur. Proin ut metus dapibus, dictum orci at, efficitur mi. Sed augue dui, tempus venenatis ultrices id, gravida convallis dolor. Quisque sed leo felis. Vestibulum mollis tempus ex vitae eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et condimentum nunc. Duis at urna non diam mattis egestas vitae at lorem. Nam pretium in turpis sed luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- build:js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js2 -->
+    <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="js/scrollPosStyler.js"></script>
+    <!-- endbuild -->
+        
+    <!-- build:js3 -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/js.cookie.min.js"></script>
+	<script src="js/envia.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

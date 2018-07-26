@@ -1,0 +1,31 @@
+{
+  "name": "template-landing-bootstrap",
+  "version": "2.0.0",
+  "description": "template de landing versão 2017",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://servidor/sensorial/template-landing-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "browser-sync": "^2.23.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-concat-multi": "^1.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.12.9",
+    "scrollpos-styler": "^0.7.0"
+  }
+}

@@ -1,0 +1,6 @@
+[git-ftp]
+	user = senso013
+	password = as98d7987
+	url = ftp.sensorialbr.com/public_html/clientes/dico/git-ftp
+	syncroot = dist/
+	insecure = 1
