@@ -7,14 +7,15 @@
 header('Content-type:text/html; charset=utf-8');
 ini_set('display_errors', 0);
 error_reporting(0);
+
 //Conecta no banco de dados
 function conectadb() {
 
 	error_reporting(E_ALL^E_DEPRECATED);
 
-	$servidor = "192.185.212.129";
-	$usuario  = "senso013_thebox";
-	$senha    = "Ht1B~!PmkyuU";
+	$servidor = "###.###.###.###";
+	$usuario  = "USUARIO_DO_BANCO";
+	$senha    = "SENHA_DO_BANCO";
 
 	$dbcon = mysql_connect($servidor, $usuario, $senha);
 	if (!$dbcon) {
