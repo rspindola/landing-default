@@ -113,19 +113,19 @@
             
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Empreendimento</a>
+                        <a data-scroll class="nav-link" href="#">Empreendimento</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Imagens</a>
+                        <a data-scroll class="nav-link" href="#galeria">Imagens</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#video">Vídeo</a>
+                        <a data-scroll class="nav-link" href="#video">Vídeo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Localização</a>
+                        <a data-scroll class="nav-link" href="#">Localização</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#formulario">QUERO MAIS INFORMAÇÕES</a>
+                        <a data-scroll class="nav-link" href="#formulario">QUERO MAIS INFORMAÇÕES</a>
                     </li>
                 </ul>
 
@@ -175,7 +175,7 @@
                         
                         <input type="text" name="honeypot-1" class="honeypot d-none" placeholder="Honeypot">
 
-                        <button type="submit" class="btn btn-lg btn-primary btn-block text-uppercase">Quero Mais Informações</button>
+                        <button type="submit" id="load" class="btn btn-lg btn-primary btn-block text-uppercase" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing Order">Quero Mais Informações</button>
 
                     </form>
                     
@@ -199,19 +199,14 @@
     </section>
 
     <section id="galeria" class="section">
-       
         <div class="container">
-           
             <div class="row">
-              
                <div class="col-md-12">
                    <p class="h2 section-title">Imagens</p>
                </div>
-               
            </div>
            
             <div class="row">
-              
                 <div class="col-md-12 glry-div d-flex flex-wrap align-items-center justify-content-center">
                     
                     <a href="http://via.placeholder.com/1200x600/000/fff">
@@ -240,11 +235,8 @@
                     </a>
 
                 </div>
-               
             </div>
-            
         </div>
-        
     </section>
     
     <section id="contato" class="section">
@@ -263,26 +255,15 @@
     
     <section id="video" class="section">
         <div class="container">
-           
            <div class="row">   
-               
                 <div class="col-md-10 mx-auto">
-
                     <div class="embed-responsive embed-responsive-16by9">
-                      
-                        <div class="youtube" data-embed="cNq9UrYf62w"> 
- 
+                        <div class="youtube" data-embed="x47Ins_rkgk"> 
                             <div class="play-button"></div> 
-
                         </div>
-                      
-
                     </div>
-
                 </div>
-               
            </div>
-           
         </div>
     </section>
 
@@ -291,7 +272,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-uppercase text-center">Padrão de Qualidade:</p>
-                    <img class="d-block mx-auto" src="img/calcada-logo.png" alt="Cliente - Logo">
+                    <img class="d-block mx-auto" src="https://via.placeholder.com/350x150" alt="Cliente - Logo">
                 </div>
             </div>
         </div>
@@ -302,7 +283,7 @@
             <div class="row">
                 <div class="col-md-12">
                    
-                    <img class="img-fluid d-block mx-auto" src="http://www.voguesquaremall.com.br/img/vogue-square-logo-xs.png" alt="Empreedimento - Logo">
+                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/350x150" alt="Empreedimento - Logo">
                     
                     <p class="text-center my-3">Handmade by <a href="http://www.sensorialbr.com" target="_blank">Sensorial</a></p>
                     
@@ -321,6 +302,7 @@
     <!-- build:js2 -->
     <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="js/scrollPosStyler.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
     <!-- endbuild -->
         
     <!-- build:js3 -->
@@ -330,6 +312,5 @@
 	<script src="js/js.cookie.min.js"></script>
 	<script src="js/envia.js"></script>
     <!-- endbuild -->
-
 </body>
 </html>

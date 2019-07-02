@@ -99,6 +99,8 @@ $(document).ready(function () {
             });
         },
         submitHandler: function (form) {
+            //desabilita o botão para que só ocorra um envio
+            $("#load").attr("disabled", true);
             // obter os dados do formulário
             var formData = {
 
@@ -130,10 +132,12 @@ $(document).ready(function () {
                                 if (data.response) {
                                     location.href='obrigado.html';
                                 } else {
+                                    $("#load").attr("disabled", false);
                                     $('.form-1').html('<div class="alert alert-warning">Houve um problema, tente novamente mais tarde.</div>');
                                 }
                             });
                     } else {
+                        $("#load").attr("disabled", false);
                         $('.form-1').html('<div class="alert alert-warning">Houve um problema, tente novamente mais tarde.</div>');
                     }
                 });
